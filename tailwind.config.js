@@ -9,6 +9,9 @@ export default {
           screens:{
             'xl1440':'1440px' 
           },
+          customFont:{
+            'sans-serif':'sans-serif'
+          }
      
     },
   },
