@@ -7,7 +7,10 @@ function Environment() {
             {" "}
             Environment
           </h1>
-          <p className="text-center text-gray-400 md:text-[20px] text-[15px]">
+          <p
+            className="text-center text-gray-400 md:text-[20px] text-[15px]"
+            data-aos="fade-right"
+          >
             Striving for a green planet through net zero
           </p>
         </div>

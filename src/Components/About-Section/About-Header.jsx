@@ -17,10 +17,18 @@ function AboutHeader() {
 
       {/* Content */}
       <div className="relative z-10 text-white text-center px-4 md:px-0">
-        <h1 className="text-center md:text-8xl text-3xl font-bold mb-3">
+        <h1
+          className="text-center md:text-8xl text-3xl font-bold mb-3"
+          data-aos="fade-in"
+          data-aos-delay="1000"
+        >
           Vision
         </h1>
-        <p className="font-medium md:text-2xl text-lg">
+        <p
+          className="font-medium md:text-2xl text-lg"
+          data-aos="fade-in"
+          data-aos-delay="1000"
+        >
           Bringing Positive Change & creating Economic Opportunity
         </p>
       </div>

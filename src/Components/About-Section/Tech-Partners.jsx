@@ -2,7 +2,11 @@ function TechPartners() {
   return (
     <>
       <div className="md:p-[70px] p-[10px]">
-        <h1 className="font-bold md:text-6xl text-2xl text-center mb-[50px] mt-[30px]">
+        <h1
+          className="font-bold md:text-6xl text-2xl text-center mb-[50px] mt-[30px]"
+          data-aos="fade-right"
+          data-aos-delay="1000"
+        >
           Technology Partners
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 place-items-center">

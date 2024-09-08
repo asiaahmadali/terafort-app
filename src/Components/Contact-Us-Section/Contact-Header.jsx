@@ -7,7 +7,10 @@ function ContactHeader() {
     <>
       <div className="flex h-auto md:h-screen md:flex-row flex-col md:pt-[90px] pt-[20px]">
         {/* image div */}
-        <div className="bg-gray-700 text-white p-[20px] md:p-[30px]">
+        <div
+          className="bg-gray-700 text-white p-[20px] md:p-[30px] "
+          data-aos="fade-right"
+        >
           {/* austin */}
           {selectedCity === "austin" && (
             <div className="flex flex-col gap-6 items-center">
@@ -73,7 +76,10 @@ function ContactHeader() {
         </div>
 
         {/* contact div */}
-        <div className="flex flex-col items-center p-[10px] gap-[20px] md:gap-[30px] mt-[20px] md:mt-0">
+        <div
+          className="flex flex-col items-center p-[10px] gap-[20px] md:gap-[30px] mt-[20px] md:mt-0"
+          data-aos="fade-left"
+        >
           <h1 className="md:text-3xl text-xl font-bold">Contact Us</h1>
           <p className="text-center md:text-[20px] text-[15px]">
             Have an idea? Let’s make it come true. Submit your query. Better

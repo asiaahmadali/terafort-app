@@ -79,6 +79,7 @@ function AllProducts() {
           para={para7}
           heading={heading7}
           lgimg="images/product7.png"
+          smimg1="images/playstore.webp"
         ></LeftProduct>
       </div>
     </>

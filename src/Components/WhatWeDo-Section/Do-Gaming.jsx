@@ -2,7 +2,11 @@ function DoGaming() {
   return (
     <>
       <div className="p-[10px] md:p-[70px] flex md:flex-row flex-col gap-[30px] md:items-start items-center">
-        <div className="flex flex-col gap-8 items-center md:items-start">
+        <div
+          className="flex flex-col gap-8 items-center md:items-start"
+          data-aos="fade-right"
+          data-aos-delay="1000"
+        >
           <h1 className="text-orange-400 md:text-5xl text-xl font-bold">
             Gaming
           </h1>
@@ -21,7 +25,7 @@ function DoGaming() {
                 </div>
                 <div className="w-1 bg-orange-400 h-16 mt-2"></div>
               </div>
-              <div className="md:text-2xl text-[18px] font-medium mt-4 ">
+              <div className="md:text-2xl text-[16px] font-medium mt-4 ">
                 Qualitative & Purposeful Fun while fulfilling Futuristic
                 Entertainment Advancements
               </div>
@@ -34,7 +38,7 @@ function DoGaming() {
                 </div>
                 <div className="w-1 bg-orange-400 h-16 mt-2"></div>
               </div>
-              <div className=" md:text-2xl text-[18px]  font-medium mt-4 ">
+              <div className=" md:text-2xl text-[16px]  font-medium mt-4 ">
                 Gaming is the booming industry & is the No. 1 source of
                 entertainment for younger generations
               </div>
@@ -47,7 +51,7 @@ function DoGaming() {
                 </div>
                 <div className="w-1 bg-orange-400 h-16 mt-2"></div>
               </div>
-              <div className=" md:text-2xl text-[18px]  font-medium mt-4">
+              <div className=" md:text-2xl text-[16px]  font-medium mt-4">
                 Mobile First Technology
               </div>
             </div>
@@ -59,7 +63,7 @@ function DoGaming() {
                 </div>
                 <div className="w-1 bg-orange-400 h-16 mt-2"></div>
               </div>
-              <div className=" md:text-2xl text-[18px]  font-medium mt-4 ">
+              <div className=" md:text-2xl text-[16px]  font-medium mt-4 ">
                 Future expansion covering all Major Gaming Platforms i.e. PC,
                 Console etc.
               </div>
@@ -69,7 +73,12 @@ function DoGaming() {
           {/* image */}
         </div>
         <div className="md:w-[50%] w-[90%]">
-          <img src="images/do1.webp" alt="" className="rounded-md" />
+          <img
+            src="images/do1.webp"
+            alt=""
+            className="rounded-md"
+            data-aos="fade-left"
+          />
         </div>
       </div>
     </>

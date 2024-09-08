@@ -1,24 +1,32 @@
 function DoApps() {
   return (
     <>
-      <div className="p-[10px] md:p-[100px] flex md:flex-row flex-col gap-[10px] md:items-start   items-center">
+      <div className="p-[10px] md:p-[100px] flex md:flex-row flex-col-reverse gap-[10px] md:items-start items-center">
         {/* img */}
-        <div className="w-[50%]">
-          <img src="images/do2.png" alt="" className="rounded-md w-[85%]" />
+        <div className="md:w-[50%] w-[90%]">
+          <img
+            src="images/do2.png"
+            alt=""
+            className="rounded-md w-[100%] md:w-[85%]"
+            data-aos="fade-right"
+          />
         </div>
 
         {/* app content */}
-        <div className="flex flex-col gap-8 items-center md:items-start w-[75%]">
+        <div
+          className="flex flex-col gap-8 items-center md:items-start w-[75%]"
+          data-aos="fade-left"
+        >
           <h1 className="text-orange-400 md:text-5xl text-xl font-bold">
-            Gaming
+            Apps
           </h1>
           <p className="md:text-[26px] text-[16px]">
-            Mobile gaming is a rapidly growing industry with a global reach,
-            encompassing a wide range of game genres and business models.
+            The mobile app industry is a rapidly growing sector, from gaming to
+            e-commerce, mobile apps have transformed the way we live, work, and
+            play.
           </p>
 
-          {/* gaming points */}
-
+          {/* App points */}
           <div className="flex flex-col">
             <div className="flex gap-[20px]">
               <div className="relative flex flex-col items-center">
@@ -27,7 +35,7 @@ function DoApps() {
                 </div>
                 <div className="w-1 bg-orange-400 h-16 mt-2"></div>
               </div>
-              <div className="md:text-2xl text-[18px] font-medium mt-4 ">
+              <div className="md:text-2xl text-[16px] font-medium mt-4">
                 Developing Apps that make daily life easier & memorable
               </div>
             </div>
@@ -39,7 +47,7 @@ function DoApps() {
                 </div>
                 <div className="w-1 bg-orange-400 h-16 mt-2"></div>
               </div>
-              <div className=" md:text-2xl text-[18px]  font-medium mt-4 ">
+              <div className="md:text-2xl text-[16px] font-medium mt-4">
                 Terafort stands among the top mobile app development companies,
                 we develop intuitive mobile apps that are performance-oriented
                 and a lifestyle toolkit. We convert innovative & unexplored
@@ -53,13 +61,11 @@ function DoApps() {
                   3
                 </div>
               </div>
-              <div className=" md:text-2xl text-[18px]  font-medium mt-4">
+              <div className="md:text-2xl text-[16px] font-medium mt-4">
                 Covering platforms of Mobile
               </div>
             </div>
           </div>
-
-          {/* image */}
         </div>
       </div>
     </>

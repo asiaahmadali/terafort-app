@@ -7,10 +7,14 @@ function LeftProduct(Props) {
             src={Props.lgimg}
             alt=""
             className="md:w-[780px] md:h-[500px] w-[300px] h-[300px]"
+            data-aos="fade-right"
           />
         </div>
 
-        <div className="flex flex-col gap-[15px] md:w-[50%] w-full items-center md:items-start">
+        <div
+          className="flex flex-col gap-[15px] md:w-[50%] w-full items-center md:items-start"
+          data-aos="fade-left"
+        >
           <h1 className="md:text-5xl text-xl text-center md:text-start font-bold">
             {Props.heading}
           </h1>
@@ -19,7 +23,9 @@ function LeftProduct(Props) {
           </p>
           <div className="flex gap-6 justify-center md:justify-start">
             <img src={Props.smimg1} alt="" className="w-[80px]" />
-            <img src={Props.smimg2} alt="" className="w-[80px]" />
+            {Props.smimg2 && (
+              <img src={Props.smimg2} alt="" className="w-[80px]" />
+            )}
           </div>
         </div>
       </div>
