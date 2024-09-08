@@ -84,7 +84,7 @@ function ContactHeader() {
             placeholder="Name"
             className="outline-none border-[2px] border-gray-300 p-2 md:p-3 rounded-md w-full max-w-[300px] md:max-w-[420px]"
           />
-          <div className="flex md:flex-row flex-col gap-4 w-full justify-center">
+          <div className="flex md:flex-row flex-col gap-4 w-full justify-center items-center">
             <input
               type="email"
               placeholder="Email"

@@ -15,11 +15,10 @@ function Footer() {
               className="md:w-[50px] w-[20px]"
             />
           </div>
-          <img
-            src="images/logo.svg"
-            alt=""
-            className="md:w-[200px] w-[100px]"
-          />
+          <h1 className="md:text-5xl text-xl font-medium">
+            BIG
+            <span className="text-orange-500 ">Ben</span>
+          </h1>
         </div>
 
         {/* footer links */}

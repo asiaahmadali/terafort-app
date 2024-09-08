@@ -82,7 +82,7 @@ function TechnologyStack() {
       </div>
 
       {/* Display the selected stack */}
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-10 items-center text-center ">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mt-10 items-center text-center ">
         {stackOptions
           .find((option) => option.value === selectedStack)
           .stack.map((item, index) => (

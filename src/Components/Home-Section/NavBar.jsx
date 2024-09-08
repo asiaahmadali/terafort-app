@@ -120,9 +120,9 @@ function NavBar() {
         <ul className="flex flex-col gap-6 p-6 text-lg">
           <li>
             <Link
-              to="/home"
+              to="/"
               className={`hover:text-yellow-600 ${
-                activeLink === "/home"
+                activeLink === "/"
                   ? "text-orange-500 border-b-2 border-orange-500"
                   : ""
               }`}
