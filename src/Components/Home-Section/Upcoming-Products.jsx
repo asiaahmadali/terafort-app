@@ -17,7 +17,10 @@ function UpcomingProducts() {
         <p className="text-center text-gray-500 text-[15px] md:text-[20px]">
           Our Upcoming Products
         </p>
-        <p className="text-[17px] md:text-[32px] font-medium text-center mt-[20px] animate__animated animate__fadeInDown">
+        <p
+          className="text-[17px] md:text-[32px] font-medium text-center mt-[20px]"
+          data-aos="fade-down"
+        >
           We are a startup focused on developing and publishing innovative
           mobile apps both gaming and non-gaming. We create experiences with our
           users and quality at the heart of everything we do.

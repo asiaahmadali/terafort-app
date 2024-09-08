@@ -6,7 +6,8 @@ function ProductLeft(Props) {
           <img
             src={Props.lgimg}
             alt=""
-            className="md:w-[700px] md:h-[700px] w-[300px] h-[300px] animate__animated animate__fadeInDown"
+            className="md:w-[700px] md:h-[700px] w-[300px] h-[300px]"
+            data-aos="fade-down"
           />
         </div>
 
@@ -14,15 +15,28 @@ function ProductLeft(Props) {
           <img
             src={Props.smimg}
             alt=""
-            className="w-[80px] animate__animated animate__fadeInLeft"
+            className="w-[80px]"
+            data-aos="fade-right"
+            data-aos-delay="1000"
           />
-          <p className="text-orange-400 font-medium text-xl animate__animated animate__fadeInLeft">
+          <p
+            className="text-orange-400 font-medium text-xl"
+            data-aos="fade-right"
+            data-aos-delay="1000"
+          >
             Mobile App
           </p>
-          <h1 className="text-2xl font-bold text-center md:text-left animate__animated animate__fadeInLeft">
+          <h1
+            className="text-2xl font-bold text-center md:text-left"
+            data-aos="fade-right"
+          >
             {Props.heading}
           </h1>
-          <p className="md:text-[24px] text-[15px] mt-[20px] text-center md:text-left animate__animated animate__fadeInLeft">
+          <p
+            className="md:text-[24px] text-[15px] mt-[20px] text-center md:text-left"
+            data-aos="fade-right"
+            data-aos-delay="1000"
+          >
             {Props.para}
           </p>
         </div>

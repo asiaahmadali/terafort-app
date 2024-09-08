@@ -19,7 +19,10 @@ function Awards() {
     <>
       <div className="bg-gray-100 md:pt-[80px] pt-[20px]">
         <div>
-          <h1 className="text-center text-4xl font-bold md:mb-[100px] mb-[20px] animate__animated animate__fadeInDown">
+          <h1
+            className="text-center text-4xl font-bold md:mb-[100px] mb-[20px]"
+            data-aos="fade-down"
+          >
             Awards & Recognitions
           </h1>
         </div>

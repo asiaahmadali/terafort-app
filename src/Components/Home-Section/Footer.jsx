@@ -15,7 +15,7 @@ function Footer() {
               className="md:w-[50px] w-[20px]"
             />
           </div>
-          <h1 className="md:text-5xl text-xl font-medium">
+          <h1 className="md:text-5xl text-xl font-medium" data-aos="fade-right">
             BIG
             <span className="text-orange-500 ">Ben</span>
           </h1>
