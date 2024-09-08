@@ -1,6 +1,6 @@
-function DoHeader() {
+function CareersHeader() {
   return (
-    <div className="relative overflow-hidden h-screen flex flex-col items-center z-10 justify-center">
+    <div className="relative overflow-hidden h-screen flex flex-col items-center justify-center">
       {/* Background Video */}
       <video
         autoPlay
@@ -17,19 +17,17 @@ function DoHeader() {
 
       {/* Content */}
       <div className="relative z-10 text-white text-center px-4 md:px-0">
-        <h1 className="text-center md:text-8xl text-3xl font-bold mb-3">
-          What we do
+        <h1 className="text-center md:text-8xl text-3xl font-bold mb-8">
+          CAREERS
         </h1>
-        <p className="font-medium md:text-2xl text-lg">
-          We combine innovation and technology to bring games to life.
+        <p className="font-medium md:text-2xl text-lg text-center ">
+          BIG<span className="text-orange-400">Ben</span> is always on the
+          lookout for leaders who can join us <br></br>in our journey of making
+          dreams come true.
         </p>
-
-        <button className="pt-[15px] pb-[15px] pr-[30px] pl-[30px] bg-orange-500 text-black mt-[50px]">
-          WANT TO COLLABORATE?
-        </button>
       </div>
     </div>
   );
 }
 
-export default DoHeader;
+export default CareersHeader;

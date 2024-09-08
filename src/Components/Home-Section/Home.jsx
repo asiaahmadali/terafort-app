@@ -3,9 +3,10 @@ import Header from "./Header";
 import UpcomingProducts from "./Upcoming-Products";
 import ProductIdeas from "./Product-Ideas";
 import TechnologyStack from "./Technology-Stack";
-import Awards from "./Awards";
+// import Awards from "./Awards";
 import TerafortNumbers from "./Terafort-Numbers";
 import Footer from "./Footer";
+
 function Home() {
   return (
     <>
@@ -18,7 +19,7 @@ function Home() {
       <UpcomingProducts></UpcomingProducts>
       <ProductIdeas></ProductIdeas>
       <TechnologyStack></TechnologyStack>
-      <Awards></Awards>
+      {/* <Awards></Awards> */}
       <TerafortNumbers></TerafortNumbers>
       <Footer></Footer>
     </>
