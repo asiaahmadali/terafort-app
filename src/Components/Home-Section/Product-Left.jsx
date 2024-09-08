@@ -6,17 +6,23 @@ function ProductLeft(Props) {
           <img
             src={Props.lgimg}
             alt=""
-            className="md:w-[700px] md:h-[700px] w-[300px] h-[300px]"
+            className="md:w-[700px] md:h-[700px] w-[300px] h-[300px] animate__animated animate__fadeInDown"
           />
         </div>
 
         <div className="flex flex-col gap-[10px] md:w-[60%] w-full items-center md:items-start">
-          <img src={Props.smimg} alt="" className="w-[80px]" />
-          <p className="text-orange-400 font-medium text-xl">Mobile App</p>
-          <h1 className="text-2xl font-bold text-center md:text-left">
+          <img
+            src={Props.smimg}
+            alt=""
+            className="w-[80px] animate__animated animate__fadeInLeft"
+          />
+          <p className="text-orange-400 font-medium text-xl animate__animated animate__fadeInLeft">
+            Mobile App
+          </p>
+          <h1 className="text-2xl font-bold text-center md:text-left animate__animated animate__fadeInLeft">
             {Props.heading}
           </h1>
-          <p className="md:text-[24px] text-[15px] mt-[20px] text-center md:text-left">
+          <p className="md:text-[24px] text-[15px] mt-[20px] text-center md:text-left animate__animated animate__fadeInLeft">
             {Props.para}
           </p>
         </div>

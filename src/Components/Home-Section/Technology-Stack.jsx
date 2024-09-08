@@ -59,7 +59,7 @@ function TechnologyStack() {
   return (
     <div className="md:p-[70px] p-[10px] border-b-[1px] border-gray-400 md:mb-[40px] mb-[10px]">
       <div>
-        <h1 className="text-center md:text-5xl text-2xl font-bold">
+        <h1 className="text-center md:text-5xl text-2xl font-bold animate__animated animate__fadeInDown">
           Technology Stack
         </h1>
       </div>

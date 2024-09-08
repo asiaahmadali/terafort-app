@@ -35,7 +35,7 @@ function ProductIdeas() {
     <>
       <div className="p-[20px] bg-gray-100">
         <div>
-          <h1 className="font-bold md:font-medium md:text-5xl text-center md:p-[70px] text-xl p-[10px]">
+          <h1 className="font-bold md:font-medium md:text-5xl text-center md:p-[70px] text-xl p-[10px] animate__animated animate__fadeInDown">
             We love transforming product ideas into degital realities
           </h1>
         </div>

@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <div className=" text-white ml-[50px] pt-[100px] md:pt-[150px]">
+    <div className=" text-white ml-[50px] pt-[100px] md:pt-[150px] animate__animated animate__fadeIn animate__delay-1s">
       <div className="">
         <h1 className=" text-[40px] md:text-[50px] font-medium mb-[20px] mt-[20px]">
           Mobile Apps & Games

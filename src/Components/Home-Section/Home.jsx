@@ -10,9 +10,9 @@ import Footer from "./Footer";
 function Home() {
   return (
     <>
-      <div className="relative h-screen w-full">
+      <div className="relative h-screen w-full ">
         {/* Background Image */}
-        <div className="absolute inset-0 bg-[url('/images/game1.jpg')] bg-cover bg-center h-full w-full -z-10" />
+        <div className="absolute inset-0 bg-[url('/images/game1.jpg')] bg-cover bg-center h-full w-full -z-10 animate__animated animate__fadeInRight" />
         <NavBar />
         <Header />
       </div>
