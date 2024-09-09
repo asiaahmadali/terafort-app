@@ -10,13 +10,41 @@ import Awards from "./Awards";
 import BigBenNumbers from "./BIGBen-Numbers";
 import Footer from "./Footer";
 
+import { useLocation } from "react-router-dom";
+
 import { FaPause, FaPlay } from "react-icons/fa";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 function Home() {
+  const location = useLocation();
+  const hash = location.hash;
+
+  const expertiseRef = useRef(null);
+  const projectsRef = useRef(null);
+  const techstackRef = useRef(null);
+  const awardsRef = useRef(null);
+  const bigbennumbersRef = useRef(null);
+
+  useEffect(() => {
+    const sectionRefs = {
+      "#expertise": expertiseRef,
+      "#projects": projectsRef,
+      "#techStack": techstackRef,
+      "#awards": awardsRef,
+      "#bigben-numbers": bigbennumbersRef,
+    };
+
+    if (sectionRefs[hash] && sectionRefs[hash].current) {
+      sectionRefs[hash].current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [hash]);
+
+  // swiper slider
   const swiperRef = useRef(null);
   const [swiperInstance, setSwiperInstance] = useState(null);
   const [isPlaying, setIsPlaying] = useState(true);
+
+  // swiper useEffect
 
   useEffect(() => {
     const swiper = new Swiper(swiperRef.current, {
@@ -106,11 +134,26 @@ function Home() {
         <Header />
       </div>
 
-      <UpcomingProducts />
-      <ProductIdeas />
-      <TechnologyStack />
-      <Awards />
-      <BigBenNumbers />
+      <section ref={expertiseRef} id="expertise">
+        <UpcomingProducts />
+      </section>
+
+      <section ref={projectsRef} id="projects">
+        <ProductIdeas />
+      </section>
+
+      <section ref={techstackRef} id="techStack">
+        <TechnologyStack />
+      </section>
+
+      <section ref={awardsRef} id="awards">
+        <Awards />
+      </section>
+
+      <section ref={bigbennumbersRef} id="bigben-numbers">
+        <BigBenNumbers />
+      </section>
+
       <Footer />
     </>
   );

@@ -29,27 +29,27 @@ function Footer() {
             </h1>
             <ul className="flex flex-col gap-2 md:text-[17px] text-[13px]">
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link to="/#expertise" className="hover:text-orange-400">
                   Areas Of Expertise
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link to="/#projects" className="hover:text-orange-400">
                   Projects
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link to="/#techStack" className="hover:text-orange-400">
                   Technologies We Work With
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link to="/#awards" className="hover:text-orange-400">
                   Awards & Recognition
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link to="/#bigben-numbers" className="hover:text-orange-400">
                   BigBen In Numbers
                 </Link>
               </li>
@@ -62,22 +62,28 @@ function Footer() {
             </h1>
             <ul className="flex flex-col gap-2 md:text-[17px] text-[13px]">
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link
+                  to="/about#founder-message"
+                  className="hover:text-orange-400"
+                >
                   Vision
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link to="/about#mission" className="hover:text-orange-400">
                   Mission
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link to="/about#values" className="hover:text-orange-400">
                   Values
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link
+                  to="/about#tech-partners"
+                  className="hover:text-orange-400"
+                >
                   Technology Partners
                 </Link>
               </li>
@@ -90,12 +96,12 @@ function Footer() {
             </h1>
             <ul className="flex flex-col gap-2 md:text-[17px] text-[13px]">
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link to="/what-we-do#gaming" className="hover:text-orange-400">
                   Gaming
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link to="/what-we-do#apps" className="hover:text-orange-400">
                   Apps
                 </Link>
               </li>
@@ -108,27 +114,30 @@ function Footer() {
             </h1>
             <ul className="flex flex-col gap-2 md:text-[17px] text-[13px]">
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link to="/careers#why-join" className="hover:text-orange-400">
                   Why Join Big<span className="text-orange-400">Ben</span>
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link to="/careers#benefits" className="hover:text-orange-400">
                   Employment Benefits
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-orange-500">
+                <Link
+                  to="/careers#rec-process"
+                  className="hover:text-orange-500"
+                >
                   Recruitment Process
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link to="/careers#life" className="hover:text-orange-400">
                   Life At BIG<span className="text-orange-500">Ben</span>
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link to="/careers#positions" className="hover:text-orange-400">
                   Open Positions
                 </Link>
               </li>
