@@ -40,9 +40,9 @@ function UpcomingProducts() {
             <img
               src="images/bike.png"
               alt=""
-              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[70px] h-[70px]"
+              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[80px] h-[80px]"
             />
-            <h1 className="font-medium md:text-2xl text-center text-[12px]">
+            <h1 className="font-medium md:text-2xl text-center text-[15px]">
               Highway Bike Racing
             </h1>
           </div>
@@ -59,9 +59,9 @@ function UpcomingProducts() {
             <img
               src="images/bike2.jpg"
               alt=""
-              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[70px] h-[70px]"
+              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[80px] h-[80px]"
             />
-            <h1 className="font-medium md:text-2xl text-center text-[12px]">
+            <h1 className="font-medium md:text-2xl text-center text-[15px]">
               MotorGP Racing
             </h1>
           </div>
@@ -78,9 +78,9 @@ function UpcomingProducts() {
             <img
               src="images/puzzle.png"
               alt=""
-              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[70px] h-[70px]"
+              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[80px] h-[80px]"
             />
-            <h1 className="font-medium md:text-2xl text-center text-[12px]">
+            <h1 className="font-medium md:text-2xl text-center text-[15px]">
               Puzzle-Match Merge
             </h1>
           </div>
@@ -97,9 +97,9 @@ function UpcomingProducts() {
             <img
               src="images/gen-ai.png"
               alt=""
-              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[70px] h-[70px]"
+              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[80px] h-[80px]"
             />
-            <h1 className="font-medium md:text-2xl text-center text-[12px]">
+            <h1 className="font-medium md:text-2xl text-center text-[15px]">
               Gen-AI Social Media App
             </h1>
           </div>
