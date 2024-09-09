@@ -33,7 +33,10 @@ function BigBenNumbers() {
           </h1>
           <p>Published Projects</p>
         </div>
-        <div className="border p-4 col-span-1 row-span-2 bg-[url('images/world.jpg')] text-white">
+        <div
+          className="border p-4 col-span-1 row-span-2  text-white"
+          style={{ backgroundImage: "url('images/world.jpg')" }}
+        >
           <h1 className="font-bold md:text-7xl text-2xl text-gray-200 opacity-50 mb-[20px]">
             500+
           </h1>
@@ -46,7 +49,7 @@ function BigBenNumbers() {
           <h1 className="font-bold md:text-3xl text-xl">2021</h1>
           <p>Founded</p>
         </div>
-        <div className="border p-4 bg-gray-400 text-white shadow-md shadow-gray-400">
+        <div className="border p-4 bg-gradient-to-r from-black to-gray-400 text-white shadow-md shadow-gray-400">
           <h1 className="font-bold md:text-7xl text-xl text-gray-200 opacity-50">
             1.5+
           </h1>

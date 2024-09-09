@@ -24,10 +24,10 @@ function Footer() {
         {/* footer links */}
         <div className="md:flex md:justify-between grid grid-cols-2 gap-3 md:mt-[40px] mt-[10px]">
           <div>
-            <h1 className="text-orange-400 font-bold md:text-xl text-sm md:mb-[15px] mb-[10px]">
+            <h1 className="text-orange-400 font-bold md:text-xl text-[18px] md:mb-[15px] mb-[10px]">
               Coporate
             </h1>
-            <ul className="flex flex-col gap-2 md:text-[17px] text-[13px]">
+            <ul className="flex flex-col gap-2 md:text-[17px] text-[15px]">
               <li>
                 <Link to="/#expertise" className="hover:text-orange-400">
                   Areas Of Expertise
@@ -57,10 +57,10 @@ function Footer() {
           </div>
 
           <div>
-            <h1 className="text-orange-400 font-bold text-sm md:text-xl md:mb-[15px] mb-[10px]">
+            <h1 className="text-orange-400 font-bold text-[18px] md:text-[18px] md:mb-[15px] mb-[10px]">
               About Us
             </h1>
-            <ul className="flex flex-col gap-2 md:text-[17px] text-[13px]">
+            <ul className="flex flex-col gap-2 md:text-[17px] text-[15px]">
               <li>
                 <Link
                   to="/about#founder-message"
@@ -91,10 +91,10 @@ function Footer() {
           </div>
 
           <div>
-            <h1 className="text-orange-400 font-bold text-sm md:text-xl md:mb-[15px] mb-[10px]">
+            <h1 className="text-orange-400 font-bold text-[18px] md:text-xl md:mb-[15px] mb-[10px]">
               What We Want
             </h1>
-            <ul className="flex flex-col gap-2 md:text-[17px] text-[13px]">
+            <ul className="flex flex-col gap-2 md:text-[17px] text-[15px]">
               <li>
                 <Link to="/what-we-do#gaming" className="hover:text-orange-400">
                   Gaming
@@ -109,10 +109,10 @@ function Footer() {
           </div>
 
           <div>
-            <h1 className="text-orange-400 font-bold text-sm md:text-xl md:mb-[15px] mb-[10px]">
+            <h1 className="text-orange-400 font-bold text-[18px] md:text-xl md:mb-[15px] mb-[10px]">
               Careers
             </h1>
-            <ul className="flex flex-col gap-2 md:text-[17px] text-[13px]">
+            <ul className="flex flex-col gap-2 md:text-[17px] text-[15px]">
               <li>
                 <Link to="/careers#why-join" className="hover:text-orange-400">
                   Why Join Big<span className="text-orange-400">Ben</span>
@@ -147,10 +147,10 @@ function Footer() {
 
         {/* get in touch */}
         <div className="border-t-[1px] border-b-[1px] border-gray-300 flex gap-[20px] items-center p-[10px] md:mt-[80px] mt-[10px]">
-          <h1 className="text-orange-400 font-bold md:text-xl text-sm md:mb-[15px] mb-[10px] md:mr-[50px]">
+          <h1 className="text-orange-400 font-bold md:text-xl text-[18px] md:mb-[15px] mb-[10px] md:mr-[50px]">
             Get in Touch
           </h1>
-          <ul className="flex md:gap-[30px] gap-[10px] md:text-[17px] text-[13px]">
+          <ul className="flex md:gap-[30px] gap-[10px] md:text-[17px] text-[15px]">
             <li>
               <Link to="/" className="hover:text-orange-400">
                 Offices
@@ -171,10 +171,10 @@ function Footer() {
 
         {/*Legal */}
         <div className="flex md:gap-[20px] gap-[10px] items-center p-[10px] ">
-          <h1 className="text-orange-400 font-bold text-sm md:text-xl md:mb-[15px] mb-[10px] md:mr-[120px] mr-[60px]">
+          <h1 className="text-orange-400 font-bold text-[18px] md:text-xl md:mb-[15px] mb-[10px] md:mr-[120px] mr-[60px]">
             Legal
           </h1>
-          <ul className="flex md:gap-[30px] gap-[10px] md:text-[17px] text-[13px]">
+          <ul className="flex md:gap-[30px] gap-[10px] md:text-[17px] text-[15px]">
             <li>
               <Link to="" className="hover:text-orange-400">
                 Privacy Policy
