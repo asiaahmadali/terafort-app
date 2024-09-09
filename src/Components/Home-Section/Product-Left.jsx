@@ -17,12 +17,10 @@ function ProductLeft(Props) {
             alt=""
             className="w-[80px]"
             data-aos="fade-right"
-            data-aos-delay="1000"
           />
           <p
             className="text-orange-400 font-medium text-xl"
             data-aos="fade-right"
-            data-aos-delay="1000"
           >
             Mobile App
           </p>
@@ -35,7 +33,6 @@ function ProductLeft(Props) {
           <p
             className="md:text-[24px] text-[15px] mt-[20px] text-center md:text-left"
             data-aos="fade-right"
-            data-aos-delay="1000"
           >
             {Props.para}
           </p>

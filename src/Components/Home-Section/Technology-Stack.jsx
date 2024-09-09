@@ -61,7 +61,7 @@ function TechnologyStack() {
       <div>
         <h1
           className="text-center md:text-5xl text-2xl font-bold"
-          data-aos="fade-down"
+          data-aos="fade-right"
         >
           Technology Stack
         </h1>

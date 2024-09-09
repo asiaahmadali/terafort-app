@@ -6,6 +6,8 @@ import Environment from "./Environment";
 import TechPartners from "./Tech-Partners";
 import NavBar from "../Home-Section/NavBar";
 import Footer from "../Home-Section/Footer";
+import BigBenNumbers from "../Home-Section/BIGBen-Numbers";
+
 function About() {
   return (
     <>
@@ -16,7 +18,7 @@ function About() {
       <FounderMessage></FounderMessage>
       <Environment></Environment>
       <TechPartners></TechPartners>
-
+      <BigBenNumbers></BigBenNumbers>
       <Footer></Footer>
     </>
   );

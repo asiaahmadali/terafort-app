@@ -5,6 +5,7 @@ import WhatWeDo from "./WhatWeDo-Section/What-WE-Do";
 import Products from "./Products-Section/Products";
 import Careers from "./Careers-Section/Careers";
 import ContactUs from "./Contact-Us-Section/Contact-Us";
+import JobDetail from "./Careers-Section/Job-Details";
 function Gaming() {
   return (
     <>
@@ -15,6 +16,7 @@ function Gaming() {
         <Route path="/what-we-do" element={<WhatWeDo />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/job/:jobId" element={<JobDetail />} />
       </Routes>
 
       {/* <About></About> */}

@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { FaMapMarker } from "react-icons/fa";
 function ContactHeader() {
   const [selectedCity, setSelectedCity] = useState("austin");
 
@@ -8,7 +8,7 @@ function ContactHeader() {
       <div className="flex h-auto md:h-screen md:flex-row flex-col md:pt-[90px] pt-[20px]">
         {/* image div */}
         <div
-          className="bg-gray-700 text-white p-[20px] md:p-[30px] "
+          className="bg-gradient-to-r from-black to-gray-500  text-white p-[20px] md:p-[30px] "
           data-aos="fade-right"
         >
           {/* austin */}
@@ -33,14 +33,20 @@ function ContactHeader() {
 
           {/* lahore */}
           {selectedCity === "lahore" && (
-            <div className="flex flex-col gap-6 items-center">
-              <div className="md:mt-[50px] mt-[20px] flex flex-col gap-6">
+            <div className="flex flex-col gap-4 items-center">
+              <div className="md:mt-[10px] mt-[20px] flex flex-col gap-6">
                 <h1 className="md:text-3xl text-xl font-bold text-center">
                   Lahore
                 </h1>
                 <p className="md:text-[20px] text-[16px] text-center">
                   Commercial, DHA Phase 8, Lahore, 54792 0301 - 1166523
                 </p>
+                <div className="flex gap-3 text-blue-600 items-center justify-center text-[16px] md:text-xl">
+                  <FaMapMarker className="text-xl"></FaMapMarker>
+                  <a href="" className="border-b-2 border-blue-700">
+                    View Location
+                  </a>
+                </div>
               </div>
               <img
                 src="images/lahore.webp"

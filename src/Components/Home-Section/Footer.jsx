@@ -50,7 +50,7 @@ function Footer() {
               </li>
               <li>
                 <Link to="" className="hover:text-orange-400">
-                  TeraFort In Numbers
+                  BigBen In Numbers
                 </Link>
               </li>
             </ul>
@@ -109,7 +109,7 @@ function Footer() {
             <ul className="flex flex-col gap-2 md:text-[17px] text-[13px]">
               <li>
                 <Link to="" className="hover:text-orange-400">
-                  Why Join TeraFort
+                  Why Join Big<span className="text-orange-400">Ben</span>
                 </Link>
               </li>
               <li>
@@ -118,13 +118,13 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="" className="hover:text-orange-400">
+                <Link to="" className="hover:text-orange-500">
                   Recruitment Process
                 </Link>
               </li>
               <li>
                 <Link to="" className="hover:text-orange-400">
-                  Life At Terafort
+                  Life At BIG<span className="text-orange-500">Ben</span>
                 </Link>
               </li>
               <li>
@@ -143,17 +143,17 @@ function Footer() {
           </h1>
           <ul className="flex md:gap-[30px] gap-[10px] md:text-[17px] text-[13px]">
             <li>
-              <Link to="" className="hover:text-orange-400">
+              <Link to="/" className="hover:text-orange-400">
                 Offices
               </Link>
             </li>
             <li>
-              <Link to="" className="hover:text-orange-400">
+              <Link to="/" className="hover:text-orange-400">
                 Get in Touch
               </Link>
             </li>
             <li>
-              <Link to="" className="hover:text-orange-400">
+              <Link to="/" className="hover:text-orange-400">
                 Careers
               </Link>
             </li>

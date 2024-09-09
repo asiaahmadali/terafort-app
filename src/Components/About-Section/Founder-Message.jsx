@@ -24,7 +24,7 @@ function FounderMessage() {
             data-aos="fade-right"
             data-aos-delay="1000"
           >
-            “Terafort believes in progress, prosperity and happiness of every
+            “BigBen believes in progress, prosperity and happiness of every
             single individual connected to it and we aspire to reach new
             heights.<br></br> <br></br>While being optimistic about the
             potential to create opportunities and substantially improve the

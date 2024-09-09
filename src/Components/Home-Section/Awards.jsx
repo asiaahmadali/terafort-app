@@ -1,3 +1,5 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css"; // Updated core Swiper CSS import
 import AwardCard from "./Award-Card";
 
 function Awards() {
@@ -17,49 +19,63 @@ function Awards() {
 
   return (
     <>
-      <div className="bg-gray-100 md:pt-[80px] pt-[20px]">
+      <div className="bg-gray-100 md:pt-[80px] pt-[20px] p-[20px]">
         <div>
           <h1
-            className="text-center text-4xl font-bold md:mb-[100px] mb-[20px]"
-            data-aos="fade-down"
+            className="text-center  text-2xl md:text-4xl font-bold md:mb-[70px] mb-[20px] mt-[10px]"
+            data-aos="fade-right"
           >
             Awards & Recognitions
           </h1>
         </div>
 
-        <div className="flex gap-5 p-[70px]">
-          <div className="relative top-[80px]">
-            <AwardCard
-              headingC={headingC1}
-              pCard={pCard1}
-              imgCard="images/unreal.webp"
-            ></AwardCard>
-          </div>
+        <Swiper
+          spaceBetween={30}
+          slidesPerView={1}
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={(swiper) => console.log(swiper)}
+          breakpoints={{
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 4 },
+          }}
+        >
+          <SwiperSlide>
+            <div className="relative top-[80px]">
+              <AwardCard
+                headingC={headingC1}
+                pCard={pCard1}
+                imgCard="images/unreal.webp"
+              ></AwardCard>
+            </div>
+          </SwiperSlide>
 
-          <div>
+          <SwiperSlide>
             <AwardCard
               headingC={headingC2}
               pCard={pCard2}
               imgCard="images/unreal.webp"
             ></AwardCard>
-          </div>
+          </SwiperSlide>
 
-          <div className="relative top-[80px]">
-            <AwardCard
-              headingC={headingC3}
-              pCard={pCard3}
-              imgCard="images/unreal.webp"
-            ></AwardCard>
-          </div>
+          <SwiperSlide>
+            <div className="relative top-[80px]">
+              <AwardCard
+                headingC={headingC3}
+                pCard={pCard3}
+                imgCard="images/unreal.webp"
+              ></AwardCard>
+            </div>
+          </SwiperSlide>
 
-          <div>
+          <SwiperSlide>
             <AwardCard
               headingC={headingC4}
               pCard={pCard4}
               imgCard="images/unreal.webp"
             ></AwardCard>
-          </div>
-        </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </>
   );
